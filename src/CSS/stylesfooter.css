@@ -1,0 +1,46 @@
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 25dvh;
+    background: #fff;
+}
+
+.containericons {
+    display: flex;
+    justify-content: space-around;
+    width: 15%;
+    height: 28%;
+    /* border: 1px #000 solid */
+}
+
+.containericons a {
+    height: 100%;
+    width: 23%;
+}
+
+.containericons img {
+    height: 100%;
+    width: 100%;
+}
+
+footer h1{
+    font-family: "DMSans-SemiBold";
+    font-size: clamp(15px, 4vh, 5vw);
+}
+
+footer span{
+    font-family: "DMSans-ExtraBold";
+    font-size: clamp(15px, 4vh, 5vw);
+    color: #0073B6;
+    text-shadow: 0 2px 5px rgba(0, 115, 182, 0.425);
+}
+
+@media screen and (max-width: 768px) {
+    .containericons {
+        width: 40%;
+        height: 19%;
+    }
+}
+

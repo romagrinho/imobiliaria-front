@@ -1,0 +1,169 @@
+.section2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 120vh;
+}
+
+.titleboxFeatured {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*  border: 1px  #000000 solid; */
+    height: 10%;
+    color: #001f5e;
+}
+
+.titleFeatured {
+    margin-top: 1%;
+    font-family: "DMSans-ExtraBold";
+    font-size: clamp(10px, 3vw, 5vh);
+}
+
+.housecontent {
+    display: flex;
+    justify-content: space-around;
+    align-items: top;
+    width: 100%;
+    height: 40%;
+    /*  border: 1px  #000000 solid; */
+}
+
+.house1 {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    width: 30%;
+    height: 100%;
+    /* border: 1px  #000000 solid; */
+}
+
+.cardimg {
+    width: 90%;
+    height: 70%;
+    border-radius: 2cqmin;
+    overflow: hidden;
+
+}
+
+.cardimg:hover img {
+    scale: 1.5
+}
+
+.imghouse {
+    width: 100%;
+    display: block;
+    transition: all 1000ms ease-in-out;
+}
+
+
+.imghouse2 {
+    width: 100%;
+    display: block;
+    transition: all 1000ms ease-in-out;
+}
+
+.imghouse3 {
+    width: 100%;
+    height: 100%;
+    display: block;
+    transition: all 1000ms ease-in-out;
+}
+
+.txtboxhouse {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    width: 90%;
+    height: 20%;
+    /*     border: 1px  #000000 solid; */
+}
+
+.subtitlehome {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    height: 50%;
+    font-family: "DMSans-Light";
+    color: #2c2c2cd8;
+    font-size: clamp(5px, 1.4vw, 2.2vh);
+    /*   border: 1px  #000000 solid; */
+}
+
+.btndownload {
+    background-image: url(/img/downarrow.png);
+    background-size: 80%;
+    background-repeat: no-repeat;
+    width: 10%;
+    height: 100%;
+    opacity: 0.75;
+    transition: background-size 500ms;
+    cursor: pointer;
+    /* border: 1px #000000 solid; */
+}
+
+.btndownload:hover {
+    background-size: 90%;
+}
+
+.titlehome {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-family: "DMSans-Light";
+    font-size: clamp(5px, 2.2vh, 2.9vw);
+    width: 100%;
+    height: 50%;
+    opacity: 0.9;
+    /* border: 1px  #000000 solid; */
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 1000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.overlay canvas {
+    max-width: 90%;
+    /* Ajusta a largura máxima da imagem */
+    max-height: 90%;
+    /* Ajusta a altura máxima da imagem */
+}
+
+.close-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    padding: 10px 20px;
+    background-color: #0073b6;
+    font-family: "DMSans-SemiBold";
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.download-button {
+    position: absolute;
+    margin-top: 35%;
+    padding: 10px 20px;
+    text-decoration: none;
+    background-color: #0073b6;
+    font-family: "DMSans-SemiBold";
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}

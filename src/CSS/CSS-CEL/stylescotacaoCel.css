@@ -1,0 +1,267 @@
+@media screen and (max-width: 768px) {
+    .section3 {
+        height: 210vh;
+    }
+
+    .titleboxCotacao {
+        align-items: end;
+        height: 3.5%;
+    }
+
+    .titleboxCotacao h1 {
+        font-size: clamp(10px, 6vw, 5vh);
+    }
+
+    .cotacaocontent {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        height: 95%;
+        width: 100%;
+        /* border: 1px #000 solid; */
+    }
+
+    .boxcotacao {
+        width: 95%;
+        height: 25%;
+    }
+
+    .titlecotacao {
+        font-family: "DMSans-Medium";
+        font-size: clamp(15px, 4vh, 5vw);
+        color: #0073b6;
+        width: 100%;
+        height: 10%;
+        /* border: 1px #000 solid; */
+    }
+
+    .containerinputs {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 70%;
+        width: 100%;
+        /* border: 1px #000 solid; */
+    }
+
+    .input-container {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        /* border: 1px #000 solid; */
+        height: 20%;
+        width: 100%;
+        color: #000;
+        font-family: "DMSans-Medium";
+        font-size: clamp(15px, 4vh, 5vw);
+    }
+
+
+    #num1 {
+        width: 30%;
+        height: 100%;
+        border: 3px #0073b6 solid;
+        border-radius: 5px;
+        outline: none;
+    }
+
+    #num2 {
+        width: 30%;
+        height: 100%;
+        border: 3px #0073b6 solid;
+        border-radius: 5px;
+        outline: none;
+    }
+
+    #num3 {
+        width: 30%;
+        height: 100%;
+        border: 3px #0073b6 solid;
+        border-radius: 5px;
+        outline: none;
+    }
+
+    .input-container input {
+        font-family: "DMSans-SemiBold";
+        font-size: clamp(15px, 3.5vw, 4vh);
+        color: #000;
+        padding-left: 2%;
+    }
+
+    .result {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 30%;
+        height: 100%;
+        background-color: #0073b6;
+        color: #fff;
+        font-family: "DMSans-SemiBold";
+        font-size: clamp(15px, 3.5vw, 4vh);
+        border-radius: 5px;
+    }
+
+    .containercotacao p {
+        padding-top: 5%;
+        padding-bottom: 5%;
+        font-family: "DMSans-SemiBold";
+        font-size: clamp(15px, 3.5vw, 4vh);
+    }
+
+    #calculate {
+        padding: 5%;
+        border: none;
+        box-shadow: 0 1px 1px rgba(0, 0, 0, 0.247);
+        background-color: #0073b6;
+        color: #fff;
+        font-family: "DMSans-SemiBold";
+        font-size: clamp(15px, 5.5vw, 5vh);
+        border-radius: 2px;
+        cursor: pointer;
+        transition: background-color 200ms, color 200ms;
+    }
+
+    #calculate:hover,
+    #btn-message:hover {
+        box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.575);
+        background-color: #fff;
+        color: #0073b6;
+    }
+
+    /* Segundo Box */
+
+    .boxcorretor {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        background-color: #fff;
+        border-radius: 5px;
+        width: 95%;
+        height: 30%;
+        box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.247);
+    }
+
+    .nomecorretor {
+        color: #000;
+        font-family: "DMSans-SemiBold";
+        font-size: clamp(10px, 5vw, 5vh);
+    }
+
+    .pontoscorretor {
+        color: #000;
+        font-family: "DMSans-Regular";
+        font-size: clamp(10px, 4vw, 4vh);
+    }
+
+    .telefonecorretor {
+        color: #c49600;
+        font-family: "DMSans-Light";
+        font-size: clamp(15px, 3.5vw, 3.5vh);
+        cursor: pointer;
+        text-decoration: underline;
+        user-select: none;
+    }
+
+    #telefonevisivel {
+        font-family: "DMSans-Regular";
+        font-size: clamp(15px, 3.5vw, 3.5vh);
+        display: none;
+    }
+
+    #telefonevisivel2 {
+        font-family: "DMSans-Regular";
+        font-size: clamp(15px, 3.5vw, 3.5vh);
+        display: none;
+    }
+        
+    /* 3° bloco */
+    .boxmensagem {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        background-color: #fff;
+        border-radius: 5px;
+        width: 95%;
+        height: 35%;
+        box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.247);
+    }
+
+    .containermessage {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        /* border: 1px #000 solid; */
+        height: 90%;
+        width: 90%;
+    }
+
+    .titlemessage {
+        font-family: "DMSans-Bold";
+        color: #0073b6;
+        width: 100%;
+        height: 6%;
+        font-size: clamp(10px, 6vw, 5vh);
+       /*  border: 1px #000 solid; */
+    }
+
+    #sendmessage {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 93%;
+        /* border: 1px #000 solid; */
+    }
+
+    #cpf,
+    #telefone {
+        height: 10%;
+        border-radius: 4px;
+        border: 2px #0000005d solid;
+        outline: none;
+        padding-left: 1%;
+        font-family: "DMSans-Regular";
+    }
+
+    input::placeholder,
+    textarea::placeholder {
+        opacity: 0.7;
+    }
+
+    #message {
+        padding-bottom: 27%;
+        padding-left: 1%;
+        height: 40%;
+        border-radius: 4px;
+        border: 2px #0000005d solid;
+        outline: none;
+        resize: none;
+        overflow-y: hidden;
+        padding-top: 1%;
+        font-family: "DMSans-Regular";
+    }
+
+    #btn-message {
+        height: 11%;
+        width: 100%;
+        font-family: "DMSans-SemiBold";
+        background-color: #0073b6;
+        color: #fff;
+        font-size: clamp(15px, 4.5vw, 5vh);
+        border-radius: 4px;
+        border: none;
+        cursor: pointer;
+        transition: background-color 200ms, color 200ms;
+    }
+
+    .inputtext {
+        font-family: "DMSans-Regular";
+        color: #000;
+        font-size: clamp(15px, 3.3vw, 3vw);
+        /* border: 1px #000 solid; */
+        padding-top: 4%;
+    }
+}

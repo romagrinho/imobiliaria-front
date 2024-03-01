@@ -1,0 +1,82 @@
+@media screen and (max-width: 768px) {
+    .section2 {
+        height: 230vh;
+    }
+
+    .titleboxFeatured {
+        /*    border: 1px  #000000 solid; */
+        height: 5%;
+        color: #001f5e;
+    }
+
+    .titleFeatured {
+        font-size: clamp(10px, 6vw, 5vh);
+    }
+
+    .housecontent {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        width: 95%;
+        height: 40%;
+        /*  border: 1px #000000 solid; */
+    }
+
+    .house1 {
+        width: 100%;
+    }
+
+    .cardimg {
+        width: 90%;
+        height: 70%;
+        border-radius: 2cqmin;
+        overflow: hidden;
+    }
+
+    .imghouse {
+        width: 100%;
+        display: block;
+        transition: all 1000ms ease-in-out;
+    }
+
+
+    .imghouse2 {
+        width: 100%;
+        display: block;
+        transition: all 1000ms ease-in-out;
+    }
+
+    .imghouse3 {
+        width: 100%;
+        display: block;
+        transition: all 1000ms ease-in-out;
+    }
+
+    .subtitlehome {
+        font-size: clamp(5px, 3vw, 2vh);
+    }
+
+    .btndownload {
+        height: 95%;
+    }
+
+    .btndownload:hover {
+        background-size: 80%;
+    }
+
+    .titlehome {
+        font-size: clamp(10px, 2vh, 3.2vw);
+    }
+
+    .overlay canvas {
+        max-width: 100%;
+        /* Ajusta a largura máxima da imagem */
+        max-height: 100%;
+        /* Ajusta a altura máxima da imagem */
+    }
+
+    .download-button {
+        margin-top: 85%;
+        padding: 10px 20px;
+    }
+}

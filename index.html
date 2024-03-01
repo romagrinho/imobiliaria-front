@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IMOVEL</title>
+    <link rel="shortcut icon" href="/img/favicon.ico">
+    <link href="https://cdn.jsdelivr.net/npm/glider-js@1/glider.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="/src/CSS/styles.css">
+    <link rel="stylesheet" href="/src/CSS/stylesmain.css">
+    <link rel="stylesheet" href="/src/CSS/stylescotacao.css">
+    <link rel="stylesheet" href="/src/CSS/stylesfeatures.css">
+    <link rel="stylesheet" href="/src/CSS/stylessteps.css">
+    <link rel="stylesheet" href="/src/CSS/CSS-CEL/stylesCel.css">
+    <link rel="stylesheet" href="/src/CSS/CSS-CEL/stylesfeaturesCel.css">
+    <link rel="stylesheet" href="/src/CSS/CSS-CEL/stylesstepsCel.css">
+    <link rel="stylesheet" href="/src/CSS/CSS-CEL/stylescotacaoCel.css">
+    <link rel="stylesheet" href="/src/CSS/stylesfooter.css">
+</head>
+
+<body>
+    <section id="section1" class="home">
+        <header class="header">
+            <div class="headerdiv">
+                <div class="rotas_header">
+                    <div class="logocasa">
+                        <img src="/img/logocasawhite.png" class="imglogo" />
+                    </div>
+                    <ul class="list_pages">
+                        <a href="#Condominios">
+                            <h4 class="teste">Condomínios</h4>
+                        </a>
+                        <a>
+                            <h4>Fórum</h4>
+                        </a>
+                        <a href="#Guia">
+                            <h4>Guia</h4>
+                        </a>
+                        <a>
+                            <h4>Artigos</h4>
+                        </a>
+                        <a>
+                            <h4>Ferramentas</h4>
+                        </a>
+                        <a href="#Cotacao">
+                            <h4>Cotar Imóvel</h4>
+                        </a>
+                        <a>
+                            <h4>Planos</h4>
+                        </a>
+                    </ul>
+
+                    <div class="btn_signin">
+                        <label class="signin">ENTRAR</label>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <header class="mobileHeader">
+            <nav>
+                <div class="logocasa">
+                    <img src="/img/logocasawhite.png" class="imglogo" />
+                </div>
+                <div class="mobile-menu">
+                    <div class="line1"></div>
+                    <div class="line2"></div>
+                    <div class="line3"></div>
+                </div>
+                <div class="nav-list">
+                    <div class="navmain-list">
+                        <div class="logocasalist">
+                            <img src="/img/logocasawhite.png" class="imglogo" />
+                        </div>
+                        <ul class="list">
+                            <li> <a href="#Condominios">
+                                    <h4 class="teste">Condomínios</h4>
+                                </a></li>
+                            <li><a>
+                                    <h4>Fórum</h4>
+                                </a></li>
+                            <li><a href="#Guia">
+                                    <h4>Guia</h4>
+                                </a></li>
+                            <li> <a>
+                                    <h4>Artigos</h4>
+                                </a></li>
+                            <li> <a>
+                                    <h4>Ferramentas</h4>
+                                </a></li>
+                            <li> <a href="#Cotacao">
+                                    <h4>Cotar Imóvel</h4>
+                                </a></li>
+                            <li> <a>
+                                    <h4>Planos</h4>
+                                </a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <div class="homecontent">
+            <div class="leftcontent">
+                <div class="box_apresentation">
+                    <p class="title">Seu <span class="spanclick">novo</span> lar a menos de um <span
+                            class="spanclick">click!</span></p>
+                    <p class="subtitle">Verifique agora os nossos preços em <a href="#Condominios"><span>Casas em
+                                Destaque.</span></a></p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="section2" class="section2">
+        <div class="titleboxFeatured">
+            <h1 id="Condominios" class="titleFeatured">Casas em Destaque</h1>
+        </div>
+        <div class="housecontent">
+            <div class="house1">
+                <div class="cardimg">
+                    <img class="imghouse" id="img1" src="/img/casa1.jpg" />
+                </div>
+                <div class="txtboxhouse">
+                    <div class="subtitlehome">
+                        <h4>Rua dos Coqueiros, 83, Parque Santana</h4>
+                        <div class="btndownload" onclick="TirarPrint()"></div>
+                    </div>
+                    <div class="titlehome">
+                        <h1>Santana de Parnaiba</h1>
+                        <h1>R$400.000</h1>
+                    </div>
+                </div>
+            </div>
+            <div class="house1">
+                <div class="cardimg">
+                    <img class="imghouse2" id="img2" src="/img/casa2.jpg" />
+                </div>
+                <div class="txtboxhouse">
+                    <div class="subtitlehome">
+                        <h4> Alameda Brasil, 1000 - Alphaville Res. Dois</h4>
+                        <div onclick="TirarPrint2()" class="btndownload"></div>
+                    </div>
+                    <div class="titlehome">
+                        <h1>Barueri</h1>
+                        <h1>R$1.000.000</h1>
+                    </div>
+                </div>
+            </div>
+            <div class="house1">
+                <div class="cardimg">
+                    <img class="imghouse3" id="img3" src="/img/casa3.jpg" />
+                </div>
+                <div class="txtboxhouse">
+                    <div class="subtitlehome">
+                        <h4> R. Gen. Florêncio, 142 - Quitaúna</h4>
+                        <div onclick="TirarPrint3()" class="btndownload"></div>
+                    </div>
+                    <div class="titlehome">
+                        <h1>Osasco</h1>
+                        <h1>R$300.000</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="titleboxSteps">
+            <h1 id="Guia" class="titleSteps">Seguimos 3 passos</h1>
+        </div>
+        <div class="stepscontent">
+            <div class="steps1" id="steps1">
+                <img src="/img/1b.png" class="img1" />
+                <div class="txtboxstep">
+                    <div class="txtboxsteps">
+                        <p class="titlestep hover">Faça cotação</p>
+                        <p class="descstep hover">Primeiro passo você deve apenas fazer uma cotação para saber o valor
+                            aproximado do gasto.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="steps2" id="stepsteste">
+                <img src="/img/2b.png" class="img2" />
+                <div class="txtboxstep2">
+                    <div class="txtboxsteps2">
+                        <p class="titlestep2">Escolha o corretor</p>
+                        <p class="descstep2">Escolha o corretor que você mais se identifica, tem a melhor avalização, ou
+                            você se identifica.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="steps1">
+                <img src="/img/3b.png" class="img1" />
+                <div class="txtboxstep">
+                    <div class="txtboxsteps">
+                        <p class="titlestep">Entre em contato</p>
+                        <p class="descstep">Agora é o momento! Mande uma mensagem pra nós especificando o imóvel e
+                            também seu corretor de interesse.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section3" id="section3">
+        <div class="titleboxCotacao">
+            <h1>Faça sua cotação!</h1>
+        </div>
+        <div class="cotacaocontent">
+            <div class="boxcotacao">
+                <div class="containercotacao">
+                    <div id="Cotacao" class="titlecotacao">
+                        <h1>Calcule aqui!</h1>
+                    </div>
+                    <div class="containerinputs">
+                        <div class="input-container">
+                            <input type="number" id="num1" placeholder="valor A">
+                            <span>esta para</span>
+                            <input type="number" id="num2" placeholder="valor B">
+                        </div>
+                        <p>Assim como</p>
+                        <div class="input-container">
+                            <input type="number" id="num3" placeholder="valor C">
+                            <span class="instruction2">esta para</span>
+                            <div class="result">
+                                <p id="result"></p>
+                            </div>
+                        </div>
+                    </div>
+                    <button id="calculate">
+                        Calcular
+                    </button>
+                </div>
+            </div>
+            <div class="boxcorretor">
+                <div class="containercorretor">
+                    <div class="imgcorretor1"></div>
+                    <div class="contentcorretor">
+                        <span class="nomecorretor"> Alana Coelho</span>
+                        <span class="pontoscorretor">Pontos: 8.000</span>
+                        <span id="telefoneinvisivel" class="telefonecorretor">Ver telefone</span>
+                        <span id="telefonevisivel">(11) 98489-9089</span>
+                    </div>
+                </div>
+                <div class="containercorretor">
+                    <div class="imgcorretor2">
+                    </div>
+                    <div class="contentcorretor">
+                        <span class="nomecorretor"> Romario Silva </span>
+                        <span class="pontoscorretor">Pontos: 8.000</span>
+                        <span id="telefoneinvisivel2" class="telefonecorretor">Ver telefone</span>
+                        <span id="telefonevisivel2">(11) 99089-8489</span>
+                    </div>
+                </div>
+            </div>
+            <div class="boxmensagem">
+                <div class="containermessage">
+                    <span class="titlemessage">Entre em contato!</span>
+                    <form action="" id="sendmessage" class="enviarmensagem">
+                        <label class="inputtext">Digite seu CPF</label>
+                        <input type="text" id="cpf" placeholder="000.000.000-00" maxlength="14">
+                        <label class="inputtext">Digite seu telefone</label>
+                        <input type="text" id="telefone" placeholder="(99) 99999-9999" maxlength="15">
+                        <label class="inputtext">Entre em contato!</label>
+                        <textarea name="textmessage" id="message" cols="30" rows="25"
+                            placeholder="Digite sua mensagem"></textarea>
+                        <button id="btn-message">Enviar</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="containericons">
+            <a href="https://github.com/RomarioAguilar" target="_blank"  rel="noopener noreferrer">
+                <img src="/img/icongit.png">
+            </a>
+            <a href="https://www.linkedin.com/in/romariosaguilar/" target="_blank" rel="noopener noreferrer">
+                <img src="/img/iconkedin.png">
+            </a>
+            <a href="mailto:romariosaguilar@gmail.com" target="_blank" rel="noopener noreferrer">
+                <img src="/img/iconemail.png">
+            </a>
+        </div>
+        <h1>Desenvolvido por <span>Romario Silva</span></h1>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"
+        integrity="sha512-BNaRQnYJYiPSqHHDb58B0yaPfCu+Wgds8Gp/gU33kqBtgNS4tSPHuGibyoeqMV/TJlSKda6FXzoEyYGjTe+vXA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script type="text/javascript" src="/src/JS/script.js"></script>
+</body>
+
+</html>

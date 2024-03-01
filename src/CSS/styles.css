@@ -1,0 +1,165 @@
+section {
+    height: 100vh;
+}
+
+.home {
+    background-image: url(/img/casa\ bonita2.jpg);
+    background-size: cover;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: end;
+  /*   border: solid 1px #fff; */
+    width: 100%;
+    height: 20%;
+}
+
+.mobileHeader {
+    display: none;
+}
+
+.rotas_header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    /*  border: solid 1px #fff; */
+    width: 97%;
+    height: 80%;
+}
+
+.headerdiv {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    height: 70%;
+    background: rgba(255, 255, 255, 0.35);
+    box-shadow: 0 8px 22px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(12x);
+    -webkit-backdrop-filter: blur(13.5px);
+    border-radius: 10px;
+}
+
+.logocasa {
+    width: 5%;
+    height: 58%;
+}
+
+.imglogo {
+    width: 100%;
+    height: 100%;
+    opacity: 0.9;
+}
+
+.list_pages {
+    display: flex;
+    color: #fff;
+    /* border: solid 1px #fff; */
+    width: 70%;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.list_pages a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.list_pages h4 {
+    cursor: pointer;
+    position: relative;
+    font-family: "DMSans-Regular";
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.479);
+    font-size: clamp(5px, 1.1vw, 2.5vh);
+}
+
+
+.list_pages h4::after {
+    content: "";
+    width: 0%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    background-color: #fff;
+    transition: 0.3s ease-in-out;
+}
+
+
+.list_pages h4:hover::after {
+    width: 100%;
+}
+
+
+.btn_signin {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 3px #fff solid;
+    box-shadow: 0 1px 2px #0000003d;
+    width: 10%;
+    height: 60%;
+    border-radius: 10px;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.479);
+    cursor: pointer;
+    user-select: none;
+}
+
+.signin {
+    font-family: "DMSans-Bold";
+    color: #fff;
+    font-size: clamp(10px, 1.7vw, 3vh);
+    cursor: pointer;
+}
+
+/* conteudo de baixo */
+
+.homecontent {
+    display: flex;
+    height: 80%;
+    width: 100%;
+}
+
+.leftcontent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+    /*  border: 1px  #fff solid; */
+}
+
+.box_apresentation {
+    height: 45%;
+    width: 51%;
+    margin-bottom: 5%;
+    margin-left: 10%;
+    /*    border: 1px  #fff solid; */
+}
+
+.spanclick {
+    /*  text-decoration: underline; */
+    font-family: "DMSans-ExtraBold";
+    color: #002244;
+    font-size: clamp(15px, 4vw, 8vh);
+}
+
+.title {
+    font-family: "DMSans-ExtraBold";
+    color: #fff;
+    font-size: clamp(15px, 4vw, 8vh);
+}
+
+.subtitle {
+    font-family: "DMSans-Regular";
+    color: #fff;
+    /* font-size: 18px; */
+    font-size: clamp(8px, 1.5vw, 2.5vh);
+}
+
+.box_apresentation a{
+    text-decoration: none;
+    color: inherit;
+}
